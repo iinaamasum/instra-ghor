@@ -60,6 +60,7 @@
             <h1>Reported posts</h1>
         </div>
     </main>
+    <h1 class="text-center text-primary my-5">FAQ</h1>
     <section class="container">
         <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
@@ -81,10 +82,17 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a short card.</p>
+                        <h5 class="card-title">What does javascript event loop do?</h5>
+                        <p class="card-text">Event loop is browser engine automated prigram which called other function
+                            that was sent to the queue by the call stack. here to mention that the call stack store all
+                            function call that is written into the previous question. whenever a time conjumming
+                            function or api is called stack send it to the queue and call stack jump to the next
+                            function. here, the queue waits untill the function call or api call successfully done. if
+                            this is done then event loop returns the function to the call stack. finally stack completed
+                            the function call. if the event loop donot work in this full process we have to wait for the
+                            api or function call, and in this mean time the the application is just fridged. so it an
+                            outstanding feature of browser engine.</p>
                     </div>
                 </div>
             </div>
